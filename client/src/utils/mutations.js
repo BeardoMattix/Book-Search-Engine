@@ -1,7 +1,7 @@
 import { gql } from "@apollo/client";
 
 //This logs in the user based on email and password.
-export const loginUser = gql`
+export const LOGIN_USER = gql`
   mutation loginUser($email: String!, $password: String!) {
     loginUser(email: $email, password: $password) {
       token {
