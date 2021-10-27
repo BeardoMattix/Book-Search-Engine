@@ -44,7 +44,7 @@ const resolvers = {
       return { token, user };
     },
     //Context allows us to get the logged in use without having to do aa search.
-    saveBook: async (parent, args, context) => {
+    savedBook: async (parent, args, context) => {
       if (context.user) {
         const updatedUser = await User.findOneAndUpdate(
           { _id: context.user._id },
