@@ -21,7 +21,7 @@ const SavedBooks = () => {
     return <h3>You need to log in to view this page.</h3>;
   }
 
-  const handleBookDelete = async (bookId) => {
+  const handleDeleteBook = async (bookId) => {
     const token = Auth.loggedIn() ? Auth.getToken() : null;
 
     if (!token) {
