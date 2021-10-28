@@ -18,6 +18,7 @@ const SavedBooks = () => {
   const { loading, data } = useQuery(GET_ME);
   const [removeBook] = useMutation(REMOVE_BOOK);
   const userData = data?.me || [];
+
   if (!userData?.username) {
     return <h3>You need to log in to view this page.</h3>;
   }
