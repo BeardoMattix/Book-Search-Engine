@@ -37,7 +37,7 @@ const resolvers = {
       if (!correctPw) {
         throw new AuthenticationError("Invalid credentials");
       }
-      //This will immediatel sign the JWT and allow the user to be logged in.
+      //This will sign the JWT and allow the user to be logged in and to stay logged in until the token expires.
       const token = signToken(user);
 
       return { token, user };

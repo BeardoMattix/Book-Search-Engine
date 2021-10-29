@@ -80,7 +80,7 @@ const SearchBooks = () => {
       await saveBook({
         variables: { input: bookToSave },
       });
-
+      // There was a line here where the response from the original code was causing my app to break. I removed it and refactored the line above and it fixed the issue.
       // if book successfully saves to user's account, save book id to state
       setSavedBookIds([...savedBookIds, bookToSave.bookId]);
     } catch (err) {

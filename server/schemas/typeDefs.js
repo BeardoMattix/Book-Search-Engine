@@ -1,6 +1,7 @@
 const { gql } = require("apollo-server-express");
 
 const typeDefs = gql`
+  # This shows the fields that are accessible from the Book model
   type Book {
     _id: ID!
     bookId: String
@@ -12,13 +13,13 @@ const typeDefs = gql`
   }
 
   type User {
+    # This shows the fields that are accessible from the User model
     _id: ID
     username: String
     email: String
     bookCount: Int
     savedBooks: [Book]
   }
-
   type Auth {
     token: ID!
     user: User
@@ -34,7 +35,7 @@ const typeDefs = gql`
     saveBook(input: savedBook!): User
     removeBook(bookId: ID!): User
   }
-
+  # This defines which information is shown when looking at saved books
   input savedBook {
     bookId: String
     authors: [String]

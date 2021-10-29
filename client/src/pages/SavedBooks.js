@@ -22,7 +22,7 @@ const SavedBooks = () => {
   if (!userData?.username) {
     return <h3>You need to log in to view this page.</h3>;
   }
-
+  // This will take the bookId, check to see if the user is logged in, and if they are then it will delete the book from local storage.
   const handleDeleteBook = async (bookId) => {
     const token = Auth.loggedIn() ? Auth.getToken() : null;
 
