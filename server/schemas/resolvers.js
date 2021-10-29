@@ -6,9 +6,9 @@ const resolvers = {
   Query: {
     me: async (parent, args, context) => {
       if (context.user) {
-        const userData = await User.findOne({ _id: context.user._id }).select(
-          "_v -password"
-        );
+        const userData = await User.findOne({ _id: context.user._id })
+          .select("-__v -password")
+          .populate("books");
         return userData;
       }
       throw new AuthenticationError("You are not currently logged in!");
@@ -48,7 +48,7 @@ const resolvers = {
         const updatedUser = await User.findOneAndUpdate(
           { _id: context.user._id },
           { $addToSet: { savedBooks: args.input } },
-          { new: true }
+          { new: true, runValidators: true }
         );
         return updatedUser;
       }
