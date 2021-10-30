@@ -1,4 +1,4 @@
-# Welcome the my MERN Book Search Engine!
+# Welcome to my MERN Book Search Engine!
 
 ## Search for books and save them!
 
