@@ -9,7 +9,7 @@
 - [Installation](#installation-)
 - [Usage](#usage-)
 - [Technologies](#technologies-)
-- [Demo](#demo-)
+- [Screenshots](#screenshots-)
 - [Contributions](#contributions-)
 - [Questions](#questions-)
 
@@ -25,7 +25,7 @@ This is an application that uses the Google Books API to search for books and al
 
 ## Installation :
 
-To install the RWP App use the instructions bellow &#8595;
+To install the Book Search App use the instructions bellow &#8595;
 
 ```
  npm install
@@ -62,7 +62,7 @@ Users can search for books from the landing page, however a user must sign up or
 
 ## Contributions :
 
-    Contributions, issues, and feature requests are welcome!
+    Contributions, issues, and feature requests are welcome.
 
 ## Questions :
 
@@ -70,4 +70,4 @@ If you have any Question please feel free to contact me:
 
 - [BeardoMattix](https://github.com/BeardoMattix)
 
-&copy; 2021 [Fitness Tracker](https://github.com/BeardoMattix/Fitness-Tracker)
+&copy; 2021 [Book-Search-Engine](https://github.com/BeardoMattix/Book-Search-Engine)
