@@ -34,7 +34,7 @@ To install the RWP App use the instructions bellow &#8595;
 
 ## Usage :
 
-The user can track workouts, add any exercises they like, and update workouts as needed. Users can create two types of workouts: Cardio, or Resistance. For cardio workouts, the user can record the distance and the duration of the workout. For resistance workouts, the user can record the exercise, weight, sets, reps, and duration. Once a workout is completed, the user can track their progress in the "Dashboard" page where the last 7 workouts will render using Charts.js.
+Users can search for books from the landing page, however a user must sign up or login to the site if they want to save books from their searches and view their saved books. If a user wants to remove a book from their saved list, they once again need to login to the site, and then then can remove books.
 
 ## Technologies :
 
@@ -43,12 +43,22 @@ The user can track workouts, add any exercises they like, and update workouts as
 - Express.js
 - MongoDB
 - Mongoose NPM Package
-- Charts.js
+- React.js
+- Bootstrap
+- Bcrypt
+- graphql
+- JSON Web Tokens
+- Apollo Boost npm package
+- Apollo Server
 - Heroku
+- React-hooks
+- Concurrently
 
-## Demo :
+## Screenshots :
 
-### This demo shows the following features: Creating a new workout, adding to an existing workout, and viewing workouts from the past via charts.js
+![Screen Shot 2021-10-30 at 2 24 12 PM](https://user-images.githubusercontent.com/82903201/139554185-0b446540-fe9d-44bb-a52c-e7e78e904f05.png)
+![Screen Shot 2021-10-30 at 2 24 30 PM](https://user-images.githubusercontent.com/82903201/139554186-2e5be169-3730-4fcb-a9a7-ec193d813dbe.png)
+![Screen Shot 2021-10-30 at 2 24 44 PM](https://user-images.githubusercontent.com/82903201/139554187-9fcb5151-2cf5-4da4-8387-1fe6f6128664.png)
 
 ## Contributions :
 
