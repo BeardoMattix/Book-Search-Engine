@@ -15,7 +15,7 @@
 
 ## Description :
 
-This is an application that uses the Google Books API to search for books and allow users to save their favorite books. This application was built using Node.js, React, Express, Context, MongoDB, MongoAtlas (for deployment on Heroku) and uses GraphQL in pllace of a RESTful API.
+This is an application that uses the Google Books API to search for books and allow users to save their favorite books. This application was built using Node.js, React, Express, Context, MongoDB, MongoAtlas (for deployment on Heroku) and uses GraphQL in place of a RESTful API.
 
 ## Licenses :
 
